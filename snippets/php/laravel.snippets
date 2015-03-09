@@ -1,0 +1,8 @@
+snippet ia
+	Input::all();
+snippet ie
+	Input::except(['${1}']);${0}
+snippet hasMany
+	public function ${1:data}(){
+		return $this->hasMany('${2:Model}', '${3:foreignKey}', '${4:localKey}' );
+	}${0}
